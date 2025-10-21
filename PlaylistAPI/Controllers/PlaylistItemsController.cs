@@ -79,6 +79,8 @@ namespace PlaylistAPI.Controllers
             existingItem.Title = updatedItem.Title;
             existingItem.Artist = updatedItem.Artist;
             existingItem.Duration = updatedItem.Duration;
+            existingItem.CoverImageUrl = updatedItem.CoverImageUrl;
+
 
             await _context.SaveChangesAsync();
 
