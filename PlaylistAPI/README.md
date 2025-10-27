@@ -15,8 +15,9 @@ GitHub Repository: https://github.com/selcuksuatsayin-se/PlaylistAPI
 ### Overall Structure
 The system follows a **layered and minimalistic architecture** to meet assignment requirements:
 - **Controller Layer:** Handles API endpoints (PlaylistItemsController).
-- **Model Layer:** Defines the data model (PlaylistItem).
-- **Data Layer:** Uses PlaylistContext with EF Core’s InMemory database provider.
+- **Model Layer:** Defines the data model (PlaylistItem).  
+- Uses PlaylistContext with EF Core’s InMemory database provider.
+
 
 The API supports the following operations:
 - Retrieve all playlist items (`GET /api/PlaylistItems`)
